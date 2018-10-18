@@ -2,8 +2,6 @@
 
 [![N|Solid](https://angular.io/assets/images/logos/angular/logo-nav@2x.png)](https://angular.io/)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 JoseZone - Angular Starter is an angular starter build upon Angular 6 for large applications.
 
   - Suggestions are always welcomed
