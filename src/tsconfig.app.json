@@ -1,0 +1,22 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": [],
+    "importHelpers": true
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ],
+  "include": [
+    "main.browser.ts",
+    "polyfills.ts",
+    "**/not-found.module.ts"
+  ],
+  "angularCompilerOptions": {
+    "preserveWhitespaces": false
+  }
+}
