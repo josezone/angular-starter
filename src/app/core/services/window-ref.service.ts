@@ -5,10 +5,10 @@ import { isPlatformBrowser } from '@angular/common';
     providedIn: 'root'
 })
 export class WindowRefService {
-    private _window;
+    private _window: Window;
     constructor(@Inject(PLATFORM_ID) platformId, private injector: Injector) {
         if (!isPlatformBrowser(platformId)) {
-              this._window = {navigator: {userAgent: 'fakeAgent'}};
+              this._window = {navigator: {userAgent: 'fakeAgent'}} as Window;
         } else {
             this._window = window;
         }

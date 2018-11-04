@@ -5,6 +5,7 @@ import { AppModule } from './app.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { CoreBrowserModule } from './core/core-browser/core-browser.module';
+import 'hammerjs';
 
 @NgModule({
     bootstrap: [ AppComponent ],
